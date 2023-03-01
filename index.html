@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Trip Roulette Home</title>
 
-		<!-- Bootstrap -->
-		<link
-			rel="stylesheet"
-			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-		/>
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Trip Roulette Home</title>
 
-		<!-- Style sheet -->
-		<link rel="stylesheet" href="css/styles.css" />
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-md">
-			<a href="index.html" class="navbar-brand">
-				<img
-					src="img/logo/tr-0.25x.png"
-					alt="Logo"
-					class="d-inline"
-					width="60"
-					height="60"
-				/>
-			</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-toggle="collapse"
-				data-target="#navBar"
-				aria-controls="navBar"
-				aria-expand="false"
-				aria-label="Toggle Navigation"
-			>
-				<span class="navbar-toggler-icon">
-                    <i id="hamburger-icon" class="fa fa-sharp fa-solid fa-bars"></i>
-                </span>
-			</button>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
-			<div class="collapse navbar-collapse" id="navBar">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a href="" class="nav-link"></a>
-					</li>
-					<li class="nav-item">
-						<a href="#AboutUs" class="nav-link">About</a>
-					</li>
-					<li class="nav-item">
-						<a href="contact.html" class="nav-link">Contact</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Account</a>
-					</li>
-				</ul>
+	<!-- Style sheet -->
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md">
+		<a href="index.html" class="navbar-brand">
+			<img src="img/logo/tr-0.25x.png" alt="Logo" class="d-inline" width="60" height="60" />
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBar" aria-controls="navBar"
+			¸ aria-expand="false" aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon">
+				<i id="hamburger-icon" class="fa fa-sharp fa-solid fa-bars"></i>
+			</span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navBar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a href="" class="nav-link"></a>
+				</li>
+				<li class="nav-item">
+					<a href="#AboutUs" class="nav-link">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="contact.html" class="nav-link">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a href="" class="nav-link">Account</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Jumbotron -->
+	<div class="jumbotron jumbotron-fluid text-center">
+		<h2 class="text-center text-white mt-3">TripRoulette</h2>
+		<div class="btn-group btn-group-justified">
+			<button type="button" class="btn btn-lg pl-5 pr-5 mt-5" id="getStartedBtn">Get
+				Started</button>
+			<a href="#AboutUs" type="button" class="btn btn-lg mt-5 pr-5 pl-5" id="AboutUsBtn">About Us</a>
+		</div>
+	</div>
+	<!-- Body -->
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-sm-6 col-lg-3 float-lg-right mt-4">
+				<p>
+					Don't know where you want to go for your next getaway? Are you indecisive? Maybe you're a
+					spontanious
+					person or its just you and your family and/or friends just can't agree on where to go. Thats why
+					here at TripRoulette, we can help you decide your next trip, at random!
+				</p>
 			</div>
-		</nav>
+			<div class="col-sm-6 mt-4 mx-auto">
+				<img src="/img/logo/tr-0.5x.png" alt="" class="img-fluid">
+			</div>
+		</div>
+	</div>
 
-		<!--     TO DO
+
+
+	<!--     TO DO
     
     - Click here to get started
         - Modals open up with questions
@@ -82,18 +95,17 @@
 
      -->
 
-		<footer class="fixed-bottom">
-			<a href="countries.html" type="button" class="btn btn-success"
-				>Countries</a
-			>
-		</footer>
+	<footer class="fixed-bottom">
+		<a href="countries.html" type="button" class="btn btn-success">Countries</a>
+	</footer>
 
-		<!-- jQuery -->
-		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-		<!-- Popper -->
-		<script src="node_modules/popper.js/dist/popper.min.js"></script>
-		<!-- Bootstrap -->
-		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
+	<!-- jQuery -->
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<!-- Popper -->
+	<script src="node_modules/popper.js/dist/popper.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
 </html>

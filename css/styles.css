@@ -7,11 +7,25 @@
     border: #6E7582 2px solid; }
   .navbar #hamburger-icon {
     color: #046582; }
-  .navbar .navbar-toggler-icon:focus {
+  .navbar .navbar-toggler-icon :focus {
     border: none;
     outline: none;
     box-shadow: none; }
-  .navbar .navbar-toggler:focus .navbar .navbar-toggler:active {
+  .navbar .navbar-toggler :focus .navbar .navbar-toggler :active {
     border: none;
     outline: none;
     box-shadow: none; }
+
+.jumbotron {
+  background-color: #046582;
+  height: 300px;
+  width: auto; }
+  .jumbotron #getStartedBtn {
+    border: #6E7582 3px solid;
+    background-color: #F39189;
+    border-radius: 20%;
+    color: #6E7582; }
+  .jumbotron #AboutUsBtn {
+    border: #F39189 3px solid;
+    border-radius: 20%;
+    color: #F39189; }

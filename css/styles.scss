@@ -33,3 +33,22 @@ $color-accent: #046582;
         }
     }
 }
+
+.jumbotron {
+    background-color: #046582;
+    height: 300px;
+    width: auto;
+
+    #getStartedBtn {
+        border: $color-b 3px solid;
+        background-color: $color-main;
+        border-radius: 20%;
+        color: $color-b;
+    }
+
+    #AboutUsBtn{
+        border: $color-main 3px solid;
+        border-radius: 20%;
+        color: $color-main;
+    }
+}
