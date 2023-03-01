@@ -1,142 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip Roulette Home</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Trip Roulette Home</title>
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<!-- Bootstrap -->
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
 
-    <!-- Style sheet -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <!-- Countries to add -->
-    <ul>
-        <h5>Germany</h5>
-        <li>Best Season: Fall</li>
-        <li>Best time: May or September and October</li>
-        <li>Activity: Oktober Fest</li>
-    </ul>
-    <ul>
-        <h5>Spain</h5>
-        <li>Best Season: Spring</li>
-        <li>Best Time: March - May</li>
-        <li>Best Activtiy: The Basilica of the Sagrada Familia</li>
-    </ul>
-    <ul>
-        <h5>Italy</h5>
-        <li>Best Season: Spring</li>
-        <li>Best Time: May-July</li>
-        <li>Best Activity: Colosseum</li>
-    </ul>
-    <ul>
-        <h5>Australia</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Canada</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Japan</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>United States</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Mexico</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Fiji</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>New Zealand</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>United Kingdom</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>France</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>South Africa</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>China</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Singapore</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>United Arab Emirates</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Greece</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Thailand</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Brazil</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-    <ul>
-        <h5>Peru</h5>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+		<!-- Style sheet -->
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md">
+			<a href="index.html" class="navbar-brand">
+				<img
+					src="img/logo/tr-0.25x.png"
+					alt="Logo"
+					class="d-inline"
+					width="60"
+					height="60"
+				/>
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navBar"
+				aria-controls="navBar"
+				aria-expand="false"
+				aria-label="Toggle Navigation"
+			>
+				<span class="navbar-toggler-icon">
+                    <i id="hamburger-icon" class="fa fa-sharp fa-solid fa-bars"></i>
+                </span>
+			</button>
 
+			<div class="collapse navbar-collapse" id="navBar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="" class="nav-link"></a>
+					</li>
+					<li class="nav-item">
+						<a href="#AboutUs" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Account</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-<!--     TO DO
+		<!--     TO DO
     
     - Click here to get started
         - Modals open up with questions
@@ -158,13 +81,19 @@
         - Can save results
 
      -->
-    
-    <!-- jQuery -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <!-- Popper -->
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-</body>
+
+		<footer class="fixed-bottom">
+			<a href="countries.html" type="button" class="btn btn-success"
+				>Countries</a
+			>
+		</footer>
+
+		<!-- jQuery -->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<!-- Popper -->
+		<script src="node_modules/popper.js/dist/popper.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
 </html>

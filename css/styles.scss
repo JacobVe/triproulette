@@ -1,0 +1,35 @@
+$color-main: #F39189;
+$color-secondary: #BB8082;
+$color-b: #6E7582;
+$color-accent: #046582;
+
+
+.navbar {
+    background-color: $color-main;
+    a {
+        color: $color-accent;
+    }
+    a:hover {
+        color: $color-b;
+        border: $color-b 2px solid;
+    }
+    #hamburger-icon {
+        color: $color-accent;
+    }
+
+    .navbar-toggler-icon {
+            & :focus {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            }
+    }
+
+    .navbar-toggler {
+        & :focus & :active {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        }
+    }
+}

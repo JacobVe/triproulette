@@ -5,16 +5,23 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "lite": "npm run lite"
+    "start": "npm run watch:all",
+    "lite": "lite-server",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss"
   },
   "author": "Jacob Vermeer",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "^3.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
